@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-import org.signal.ringrtc.CallManager;
-import org.signal.ringrtc.GroupCall;
+import org.signal.ringrtcChung.CallManager;
+import org.signal.ringrtcChung.GroupCall;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Rule;

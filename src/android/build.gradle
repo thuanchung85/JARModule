@@ -57,12 +57,15 @@ android {
 }
 
 dependencies {
+
     api files(webrtc_jar)
     api 'androidx.annotation:annotation:1.4.0'
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.6'
     androidTestImplementation "androidx.test:runner:1.4.0"
     androidTestImplementation "androidx.test:core:1.4.0"
     androidTestImplementation "org.mockito:mockito-android:5.1.1"
+
+
 }
 
 task javadoc(type: Javadoc) {
@@ -141,3 +144,19 @@ task version {
         println "WebRTC version : " + project.webrtc_version
     }
 }
+task jar(type: Jar, dependsOn: 'assembleRelease') {
+    from fileTree(dir: 'build/intermediates/classes/release')
+}
+
+task deleteJar(type: Delete) {
+    delete 'libs/jars/logmanagementlib.jar'
+}
+
+task createJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('libs/jars/')
+    include('classes.jar')
+    rename('classes.jar', 'logmanagementlib.jar')
+}
+
+createJar.dependsOn(deleteJar, build)

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.ringrtc;
+package org.signal.ringrtcChung;
 
 /**
 * A simple exception class that can be thrown by any of the {@link
-* org.signal.ringrtc.CallManager} class methods.
+* org.signal.ringrtcChung.CallManager} class methods.
 */
 public class CallException extends Exception {
   public CallException() {

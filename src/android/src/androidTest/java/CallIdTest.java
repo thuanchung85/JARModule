@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-import org.signal.ringrtc.CallId;
+import org.signal.ringrtcChung.CallId;
 
 import org.junit.Test;
 

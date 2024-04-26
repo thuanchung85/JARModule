@@ -2,7 +2,7 @@
  * Copyright 2019-2021 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.signal.ringrtc;
+package org.signal.ringrtcChung;
 
 import androidx.annotation.NonNull;
 

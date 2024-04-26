@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.ringrtc;
+package org.signal.ringrtcChung;
 
 import android.util.LongSparseArray;
 import androidx.annotation.NonNull;
@@ -11,13 +11,8 @@ import androidx.annotation.Nullable;
 
 import org.webrtc.AudioSource;
 import org.webrtc.AudioTrack;
-import org.webrtc.DefaultVideoDecoderFactory;
-import org.webrtc.DefaultVideoEncoderFactory;
-import org.webrtc.EglBase;
 import org.webrtc.MediaConstraints;
 import org.webrtc.PeerConnectionFactory;
-import org.webrtc.VideoDecoderFactory;
-import org.webrtc.VideoEncoderFactory;
 import org.webrtc.VideoSink;
 import org.webrtc.VideoSource;
 import org.webrtc.VideoTrack;

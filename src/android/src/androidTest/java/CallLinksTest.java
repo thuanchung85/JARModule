@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallLinkState;
-import org.signal.ringrtc.CallLinkRootKey;
-import org.signal.ringrtc.CallManager;
-import org.signal.ringrtc.GroupCall;
-import org.signal.ringrtc.PeekInfo;
+import org.signal.ringrtcChung.CallException;
+import org.signal.ringrtcChung.CallLinkState;
+import org.signal.ringrtcChung.CallLinkRootKey;
+import org.signal.ringrtcChung.CallManager;
+import org.signal.ringrtcChung.GroupCall;
+import org.signal.ringrtcChung.PeekInfo;
 
 import org.junit.Rule;
 import org.junit.Test;

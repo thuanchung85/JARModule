@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.ringrtc;
+package org.signal.ringrtcChung;
 
 public final class BuildInfo {
 
